@@ -1,0 +1,35 @@
+;SetupMgrTag
+[Unattended]
+    InstallFilesPath=C:\sysprep\i386
+    OemSkipEula=Yes
+    TargetPath=\WINDOWS
+
+[GuiUnattended]
+    EncryptedAdminPassword=NO
+    OEMSkipRegional=1
+    AdminPassword=""
+    TimeZone=65
+    OemSkipWelcome=1
+
+[UserData]
+    ProductKey=
+    FullName="."
+    OrgName="."
+    ComputerName=*
+
+[LicenseFilePrintData]
+    AutoMode=PerServer
+    AutoUsers=5
+
+[Identification]
+    JoinWorkgroup=WORKGROUP
+
+[Networking]
+    InstallDefaultComponents=Yes
+
+[Branding]
+    BrandIEUsingUnattended=Yes
+
+[Proxy]
+    Proxy_Enable=0
+    Use_Same_Proxy=0
