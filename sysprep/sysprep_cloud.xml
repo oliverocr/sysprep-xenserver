@@ -63,7 +63,7 @@
             </AutoLogon>
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
-                    <CommandLine>certutil -p locaweb -importpfx C:\windows\system32\sysprep\cert_EXP.pfx</CommandLine>
+                    <CommandLine>certutil -p password -importpfx C:\windows\system32\sysprep\cert_EXP.pfx</CommandLine>
                     <Order>1</Order>
                     <RequiresUserInput>false</RequiresUserInput>
                 </SynchronousCommand>
